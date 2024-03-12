@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="icon">
+            <img src="/imagens/sonic-logo2.png" alt="">
+        </div>
+
+        <div class="box">
+            <ul>
+                <li>Home</li>
+                <Li>Detalhes</Li>
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="logo">
+            <img src="/imagens/sonic-logo.png" alt="">
+
+            <div class="text">
+                <p> O jogo segue a história do ouriço ultra veloz chamado Sonic em sua missão de derrotar o poderoso
+                    Doutor
+                    Eggman,
+                    um cientista que aprisionou animais em robôs e roubou as mágicas 7 Esmeraldas do Caos.</p>
+
+            </div>
+
+            <div id="bnt" onclick="aberto()" onclick="animation()">
+                VEJA O TRAILER
+            </div>
+
+        </div>
+
+        <div class="characters">
+            <img src="/imagens/sonic-characters.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="sanic">
+        <img id="sonic" src="/imagens/sanic.webp" alt="">
+
+    </div>
+
+    <div id="modal">
+       
+        <div id="modal-content">
+
+            <span class="fechado" onclick="fechar()">&times;</span>
+
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ZzHXjAJ86Zw" 
+            title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture" allowfullscreen></iframe>
+           
+            
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

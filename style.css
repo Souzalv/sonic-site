@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-image: url(/imagens/backgroundimage.PNG);
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+
+.icon img{
+    height: 70px;
+    margin-left: 50px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+   
+}
+
+.box li{
+    display: flex;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box{
+    margin-right: 80px;
+
+}
+
+.logo img{
+    height: 300px;
+    
+}
+
+.text{
+    text-align: center;
+
+}
+
+.logo{
+    margin-top: 90px;
+    margin-left: 60px;
+}
+
+.container{
+    display: flex;
+
+}
+
+.characters img{
+    height: 500px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+#bnt{
+    background-color: #0D7ADF;
+    height: 50px;
+    width: 150px;
+    margin-left: 320px;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sanic img{
+    height: 150px;
+
+}
+
+#bnt:hover{
+    cursor: pointer;
+    background-color: #002060;
+    transition: 0.7s;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #002060;
+    transition: 0.7s;
+
+}
+
+.sanic{
+    animation-name: sanic;
+    animation-duration: 1s;
+    position: relative;
+}
+
+
+
+@keyframes sanic {
+    from{
+        left: 0;
+    }
+
+    to{
+        
+        left: 100%;
+
+    }
+
+
+}
+
+#modal{
+  display: none;
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+
+
+}
+
+#modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+
+.fechado {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 410px
+  }
+
+
